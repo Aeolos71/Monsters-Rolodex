@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Robofriends/static/css/main.aa836eda.css",
-    "main.js": "/Robofriends/static/js/main.83a8e61a.js",
-    "static/js/787.32032a02.chunk.js": "/Robofriends/static/js/787.32032a02.chunk.js",
-    "index.html": "/Robofriends/index.html",
-    "main.aa836eda.css.map": "/Robofriends/static/css/main.aa836eda.css.map",
-    "main.83a8e61a.js.map": "/Robofriends/static/js/main.83a8e61a.js.map",
-    "787.32032a02.chunk.js.map": "/Robofriends/static/js/787.32032a02.chunk.js.map"
+    "main.css": "/Monsters-Rolodex/static/css/main.6899778e.css",
+    "main.js": "/Monsters-Rolodex/static/js/main.59a6794a.js",
+    "static/js/787.e4e9b7ff.chunk.js": "/Monsters-Rolodex/static/js/787.e4e9b7ff.chunk.js",
+    "index.html": "/Monsters-Rolodex/index.html",
+    "main.6899778e.css.map": "/Monsters-Rolodex/static/css/main.6899778e.css.map",
+    "main.59a6794a.js.map": "/Monsters-Rolodex/static/js/main.59a6794a.js.map",
+    "787.e4e9b7ff.chunk.js.map": "/Monsters-Rolodex/static/js/787.e4e9b7ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa836eda.css",
-    "static/js/main.83a8e61a.js"
+    "static/css/main.6899778e.css",
+    "static/js/main.59a6794a.js"
   ]
 }
