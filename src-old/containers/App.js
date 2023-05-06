@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import "../containers/App.css";
-import CardList from "../components/CardList";
-import SearchBox from "../components/SearchBox";
-import Scroll from "../components/Scroll";
+import React, { Component } from 'react';
+import '../containers/App.css';
+import CardList from '../components/CardList';
+import SearchBox from '../components/SearchBox';
+import Scroll from '../components/Scroll';
 
 // Class component
 class App extends Component {
@@ -10,18 +10,16 @@ class App extends Component {
     super();
     this.state = {
       robots: [],
-      searchfield: "",
+      searchfield: '',
     };
   }
 
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
       .then((users) => this.setState({ robots: users }));
   }
 
-  // Κάθε μέθοδο που δημιουργούμε εκτός από αυτές της REACT (constructor() και render())
-  // πρέπει να έχουν την μορφή της arrow function όπως παρακάτω
   onSearchChange = (event) => {
     this.setState({ searchfield: event.target.value });
   };
@@ -35,8 +33,8 @@ class App extends Component {
     return !robots.length ? (
       <h1>Loading...</h1>
     ) : (
-      <div className='tc'>
-        <h1 className='f1'>RoboFriends</h1>
+      <div className="tc">
+        <h1 className="f1">RoboFriends</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
           <CardList robots={filteredRobots} />
